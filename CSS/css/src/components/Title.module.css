@@ -1,0 +1,6 @@
+/* geralmente o CSS module é usado com classes */
+.title {
+    color: blueviolet;
+    background-color: black;
+    padding: 10px;
+}

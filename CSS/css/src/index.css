@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font1: helvetica;
+  --color1: red;
+  --color2: black;
+  --color3: yellow;
+}
+
+body {
+  font-family: var(--font1);
+  padding-bottom: 500px;
+}
+
+h1 {
+  color: var(--color1);
+}
+
+.redTitle {
+  color: var(--color1);
+  background-color: var(--color2);
+}
+
+.yellowTitle {
+  color: var(--color3);
+  background-color: var(--color2);
+}
